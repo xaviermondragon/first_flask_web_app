@@ -1,0 +1,4 @@
+Flask==2.1.1
+flask_sqlalchemy
+flask_wtf
+wtforms
