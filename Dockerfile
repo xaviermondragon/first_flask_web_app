@@ -14,4 +14,6 @@ RUN apt-get install tk -y
 # Install Requirements
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["python", "-m" , "flask", "run", "--host=0.0.0.0"]
+# Start the server
+RUN chmod a+x run.sh
+CMD ["./run.sh"]

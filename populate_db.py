@@ -6,8 +6,7 @@ from datetime import datetime
 tasks = [
     Task(title="Practice Oud", date=datetime.utcnow()),
     Task(title="Dance Forró", date=datetime.utcnow()),
-    Task(title="Learn Python", date=datetime.utcnow()),
-    Task(title="Meditate", date=datetime.utcnow())
+    Task(title="Learn Python", date=datetime.utcnow())
 ]
 
 for task in tasks:
